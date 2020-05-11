@@ -1,0 +1,41 @@
+{
+    "name": "whatsins_backen",
+    "version": "1.0.0",
+    "description": "Restful API server for android project WhatsIns",
+    "main": "index.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js",
+        "test": "mocha --recursive --exit"
+    },
+    "keywords": [
+        "restful",
+        "api",
+        "Koa"
+    ],
+    "author": "Terry Fung",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "jsonwebtoken": "^8.5.1",
+        "koa": "^2.11.0",
+        "koa-bodyparser": "^4.3.0",
+        "koa-json": "^2.0.2",
+        "koa-json-error": "^3.1.2",
+        "koa-logger": "^3.2.1",
+        "koa-multer": "^1.0.2",
+        "koa-router": "^8.0.8",
+        "koa-static": "^5.0.0",
+        "koa2-cors": "^2.0.6",
+        "mongoose": "^5.9.6",
+        "mongoose-timestamp": "^0.6.0",
+        "uuid": "^7.0.3"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.2",
+        "chai": "^4.2.0",
+        "chai-http": "^4.3.0",
+        "mocha": "^7.1.1",
+        "supertest": "^4.0.2"
+    }
+}
